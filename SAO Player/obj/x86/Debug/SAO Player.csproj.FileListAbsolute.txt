@@ -1,0 +1,39 @@
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\bin\Debug\SAO Player.exe
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\bin\Debug\SAO Player.pdb
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\MainWindow.baml
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\MainWindow.g.cs
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\App.g.cs
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO Player_MarkupCompile.cache
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO Player.g.resources
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO_Player.Properties.Resources.resources
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO Player.exe
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO Player.pdb
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\SAO Player\SAO Player\bin\Debug\Bass.Net.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\Setting.baml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\Setting.g.cs
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO Player_MarkupCompile.lref
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\Widget\SpectrumWidget.baml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\Widget\SpectrumWidget.g.cs
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO Player.exe
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO Player.pdb
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO Player.csprojResolveAssemblyReference.cache
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\Setting.g.cs
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\Widget\SpectrumWidget.g.cs
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\App.g.cs
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO Player_MarkupCompile.cache
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO Player_MarkupCompile.lref
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\bin\Debug\SAO Player.exe
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\bin\Debug\SAO Player.pdb
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\bin\Debug\Bass.Net.xml
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\MainWindow.baml
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\Setting.baml
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\Widget\SpectrumWidget.baml
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO Player.g.resources
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO_Player.Properties.Resources.resources
+C:\Users\Sparrow\Documents\Visual Studio 2010\Projects\SAO Player\SAO Player\obj\x86\Debug\SAO Player.csproj.GenerateResource.Cache

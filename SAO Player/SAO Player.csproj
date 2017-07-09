@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D23958EF-E9D7-4F97-BE21-B43E2D1F0D7B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAO_Player</RootNamespace>
+    <AssemblyName>SAO Player</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bass.Net, Version=2.4.12.5, Culture=neutral, PublicKeyToken=b7566c273e6ef480, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bass.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="BaseWindow.cs" />
+    <Compile Include="BitMap.cs" />
+    <Compile Include="Lib\BC.cs" />
+    <Compile Include="Lib\SAOPlayer.cs" />
+    <Compile Include="SAOWidget.cs" />
+    <Compile Include="SAO_Widget.cs" />
+    <Compile Include="Setting.xaml.cs">
+      <DependentUpon>Setting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Subject.cs" />
+    <Compile Include="Widget\SpectrumWidget.xaml.cs">
+      <DependentUpon>SpectrumWidget.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Setting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Widget\SpectrumWidget.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <Resource Include="Res\Font\SimSongTi.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Res\UI\add_hover.png" />
+    <Resource Include="Res\UI\add_normal.png" />
+    <Resource Include="Res\UI\alert.png" />
+    <Resource Include="Res\UI\BU_PAUSE.png" />
+    <Resource Include="Res\UI\BU_PREW.png" />
+    <Resource Include="Res\UI\BU_Skip.png" />
+    <Resource Include="Res\UI\cancel_hover.png" />
+    <Resource Include="Res\UI\cancel_normal.png" />
+    <Resource Include="Res\UI\catb_normal.png" />
+    <Resource Include="Res\UI\hp_icon.png" />
+    <Resource Include="Res\UI\hp_icon_hover.png" />
+    <Resource Include="Res\UI\iTunes_normal.png" />
+    <Resource Include="Res\UI\listre.png" />
+    <Resource Include="Res\UI\list_hover.png" />
+    <Resource Include="Res\UI\list_normal.png" />
+    <Resource Include="Res\UI\logout_hoverl.png" />
+    <Resource Include="Res\UI\logout_normal.png" />
+    <Resource Include="Res\UI\lrc.png" />
+    <Resource Include="Res\UI\lrc_hover.png" />
+    <Resource Include="Res\UI\message.png" />
+    <Resource Include="Res\UI\Minus.png" />
+    <Resource Include="Res\UI\ok_hover.png" />
+    <Resource Include="Res\UI\ok_normal.png" />
+    <Resource Include="Res\UI\panel.png" />
+    <Resource Include="Res\UI\QQ截图20140308075629.png" />
+    <Resource Include="Res\UI\radom.png" />
+    <Resource Include="Res\UI\SAO_BU_DSP.png" />
+    <Resource Include="Res\UI\SAO_BU_DSP_hover.png" />
+    <Resource Include="Res\UI\sao_clearn.png" />
+    <Resource Include="Res\UI\save_normal.png" />
+    <Resource Include="Res\UI\search_normal.png" />
+    <Resource Include="Res\UI\sequence.png" />
+    <Resource Include="Res\UI\sett-big_hover.png" />
+    <Resource Include="Res\UI\sett-big_normal.png" />
+    <Resource Include="Res\UI\singleplay.png" />
+    <Resource Include="Res\UI\soundfont.png" />
+    <Resource Include="Res\UI\soundfont_hover.png" />
+    <Resource Include="Res\UI\taskmgr-copy_hoverl.png" />
+    <Resource Include="Res\UI\taskmgr-copy_normal.png" />
+    <Resource Include="Res\UI\taskmgr_hover.png" />
+    <Resource Include="Res\UI\taskmgr_normal.png" />
+    <Resource Include="Res\UI\UI.png" />
+    <Resource Include="Res\UI\UI_PLAY.png" />
+    <Resource Include="Res\UI\UI_VOL.png" />
+    <Resource Include="Res\UI\VOL_BG.png" />
+    <Resource Include="Res\UI\wetdget UI.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
